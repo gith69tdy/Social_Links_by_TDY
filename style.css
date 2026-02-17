@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+}
+
+#body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.attribution {
+    color: white;
+    font-size: 15px;
+}
+
+#imab {
+    border-radius: 50%;
+    height: 70px;
+    margin-top: 40px;
+}
+
+#sp {
+    color: yellow;
+    font-weight: normal;
+}
+
+#real {
+    background-color: rgba(41, 41, 41, 0.952);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 350px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+p, div {
+    color: white;
+}
+
+.div {
+    background-color: rgb(78, 77, 77);
+    padding: 10px 20px 10px 20px;
+    width: 230px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+}
+
+#front {
+    margin-bottom: 20px;
+}
+
+#divdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.div:hover {
+    background-color: rgba(255, 255, 0, 0.63);
+}
+
+@media screen and (max-width: 320px) and (min-width: 220px) {
+    .div {
+        width: 130px;
+        font-size: 13px;
+    }
+
+    .redi {
+        font-size: 13px;
+    }
+
+    #real {
+        width: 230px;
+        padding-bottom: 20px;
+    }
+
+    #imab {
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    .attribution {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 220px) {
+    .div {
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .redi {
+        font-size: 10px;
+    }
+
+    #real {
+        width: 200px;
+        padding-bottom: 20px;
+    }
+
+    #imab {
+        height: 40px;
+        margin-top: 20px;
+    }
+
+    .attribution {
+        font-size: 8px;
+    }
+}
+
+
+
+
+
+
+
